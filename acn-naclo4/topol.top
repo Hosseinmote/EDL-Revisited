@@ -1,0 +1,20 @@
+#include "topol.ff/forcefield.itp"
+#include "topol.ff/AT.itp"
+#include "topol.ff/surf.itp"
+#include "topol.ff/sio2.itp"
+#include "topol.ff/gra.itp"
+#include "topol.ff/acetonitrile_sixsite.itp"
+#include "topol.ff/na.itp"
+#include "topol.ff/clo4.itp"
+
+[ system ]
+ACN and NaClO4 1 molar and Hydroxylated SiO2
+
+[ molecules ]
+surface 224
+sio2	1
+gra     1972 
+ACN     8168
+NA      443
+CLO     443
+

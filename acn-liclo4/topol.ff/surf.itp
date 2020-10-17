@@ -1,0 +1,24 @@
+[ moleculetype ]						
+ ; Name            nrexcl
+surface		   1		
+
+[atoms]
+ ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+      1         OS      1    SUR     OS      1      -0.71     15.9994   ; qtot 0
+      2        SiS      1    SUR    SiS      1       0.31     28.0860   ; qtot 0
+      3         HS      1    SUR     HS      1       0.40     1.00800   ; qtot 0
+
+ 
+[ constraints ] ; fixes the distance between 2 atoms, (see page 124 of gromacs 5.1.1 manual)
+
+; fu: function type when it is equal to 1 with only two sites (ai and aj),
+; GROMACS interpret it as bond, and when it is equal to for example 6, it
+; interprets it as quartic angle (see page 136 of gromacs 5.1.1 manual)
+
+; ai  aj  fu  length
+  1   3   1   0.1
+
+[angles]
+ ;  ai    aj    ak funct    angle    ktheta
+     2    1     3     1    109.27   836.8
+

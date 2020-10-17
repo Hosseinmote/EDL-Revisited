@@ -1,0 +1,6 @@
+[moleculetype ]
+;molname interactions-to-exclude-from-nonbonded-calc#
+LI 1 
+[ atoms ]
+;id type res-numb res-name atom charge-grp-numb charge #
+1 LI 1 LI LI 1 1.0

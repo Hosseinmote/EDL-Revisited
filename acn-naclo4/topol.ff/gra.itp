@@ -1,0 +1,22 @@
+; This include topology was generated for the paper below:
+; Carl Caleman, Paul J. van Maaren, Minyan Hong, Jochen S. Hub,
+; Luciano T. Costa and David van der Spoel
+; Force Field Benchmark of Organic Liquids: Density,
+; Enthalpy of Vaporization, Heat Capacities, Surface Tension,
+; Isothermal Compressibility, Volumetric Expansion Coefficient,
+; and Dielectric Constant
+; J. Chem. Theor. Comput. 8 (2012) 61-74
+; http://dx.doi.org/10.1021/ct200731v
+; REFERENCE Caleman2012a
+
+; The forcefield is based on the above forcefield, however with
+; some modification to charges and combination rule to reproduce
+; dielectric permittivity compared to experiments
+; REFRENCE JPCB 2018, 122, 770-779 
+
+[moleculetype]
+; positive graphene wall
+gra     1
+
+[atoms]
+    1    C    1  GRA   C  1  0.0

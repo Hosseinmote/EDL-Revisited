@@ -1,0 +1,6 @@
+[moleculetype ]
+;molname interactions-to-exclude-from-nonbonded-calc#
+NA 1 
+[ atoms ]
+;id type res-numb res-name atom charge-grp-numb charge #
+1 NA 1 NA NA 1 1.0

@@ -1,0 +1,69 @@
+[ atomtypes ]
+; name	 mass	charge	ptype	sigma(nm)  epsilon(kJ/mol)
+
+CT   12.010	-0.5503	  A	0.34	  0.4577296
+HC   1.0080	 0.1904	  A	0.265	  0.0656888
+YC   12.010	 0.4917	  A	0.3545	  0.5610740
+YN   14.010	-0.5126	  A	0.301 	  0.5568904
+
+
+; Tetrafluoroborate  anion [BF4]
+; Ionic liquid OPLS-AA force field
+; S.V. Sambasivarao, O. Acevedo, Development of OPLS-AA Force Field Parameters for 68 Unique Ionic Liquids,
+;     J. Chem. Theory Comput., 2009, 5, 1038-1050.
+; B. Doherty, X. Zhong, S. Gathiaka, B. Li, O. Acevedo, Revisiting OPLS Force Field Parameters for Ionic Liquid Simulations,
+;     J. Chem. Theory Comput., 2017, 13, 6131-6145.
+
+
+
+; LI   6.94100	1.0000    A     0.146  	  0.798
+
+
+LI   6.94100    1.0000    A    2.12645e-01  7.64793e-02
+B    10.811     0.8276    A     0.35814   0.39748    ;    3.5814    0.095
+F    18.998    -0.4569    A     0.31181   0.25104    ;    3.1181    0.06
+
+
+; silanol from PRE 73,041604 (2006), Rossky
+ SiS        28.0860      0.3100         A               0.3795          0.5336
+  OS        15.9994      -0.710         A               0.3154          0.6478
+  HS        1.00800      0.4000         A               0.0000          0.0000
+
+; Bulk SiO2 from PRE 73,041604 (2006), Rossky
+  Si        28.0860      0.0000         A               0.3795          0.5336
+   O        15.9994      0.0000         A               0.3154          0.6478
+
+   C        12.0100      0.0000         A               0.3795          0.00001
+
+[ nonbond_params ]
+
+   C    C    1  0.0       0.0
+   C    O    1  0.0       0.0
+   C   Si    1  0.0       0.0
+   C   OS    1  0.0       0.0
+   C   HS    1  0.0       0.0
+   C  SiS    1  0.0       0.0
+
+
+  Si    O    1  0.0       0.0
+  Si   Si    1  0.0       0.0
+  Si   OS    1  0.0       0.0
+  Si   HS    1  0.0       0.0
+  Si  SiS    1  0.0       0.0
+
+  OS    O    1  0.0       0.0
+  OS   OS    1  0.0       0.0
+  OS   HS    1  0.0       0.0
+  OS  SiS    1  0.0       0.0
+
+ SiS    O    1  0.0       0.0
+ SiS   HS    1  0.0       0.0
+ SiS  SiS    1  0.0       0.0
+
+   O    O    1  0.0       0.0
+   O   HS    1  0.0       0.0
+  HS   HS    1  0.0       0.0         
+
+
+
+
