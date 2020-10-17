@@ -1,0 +1,16 @@
+#include "topol.ff/forcefield.itp"
+#include "topol.ff/AT.itp"
+#include "topol.ff/surf.itp"
+#include "topol.ff/sio2.itp"
+#include "topol.ff/gra.itp"
+#include "topol.ff/acetonitrile_sixsite.itp"
+
+[ system ]
+ACN and LiPF6 1 molar and Hydroxylated SiO2
+
+[ molecules ]
+surface 224
+sio2	1
+gra     1972 
+ACN     8300
+
